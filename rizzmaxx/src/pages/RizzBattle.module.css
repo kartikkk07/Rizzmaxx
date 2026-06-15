@@ -1,0 +1,25 @@
+.battleSetup { display: grid; grid-template-columns: 1fr auto 1fr; gap: 12px; align-items: start; margin-bottom: 16px; }
+.player { display: flex; flex-direction: column; gap: 8px; }
+.vs { font-size: 24px; font-weight: 900; color: var(--purple-light); padding-top: 52px; text-align: center; }
+.uploadBox { border: 1.5px dashed #4a3a7a; border-radius: 12px; min-height: 130px; display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; background: #0f0f20; transition: border-color 0.2s; overflow: hidden; }
+.uploadBox:hover { border-color: var(--purple); }
+.uploadIcon { font-size: 26px; margin-bottom: 6px; }
+.uploadText { font-size: 12px; color: var(--purple-light); }
+.playerImg { width: 100%; max-height: 160px; object-fit: cover; }
+
+.resultCard { background: var(--bg2); border: 0.5px solid var(--border); border-radius: 16px; overflow: hidden; margin-top: 16px; }
+.winnerBanner { background: linear-gradient(135deg, #f59e0b22, #f59e0b11); border-bottom: 0.5px solid #f59e0b33; padding: 20px; text-align: center; }
+.winnerLabel { font-size: 11px; color: #f59e0b; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 6px; }
+.winnerName { font-size: 24px; font-weight: 900; color: #fff; margin-bottom: 8px; }
+.winReason { font-size: 13px; color: #ccc; }
+
+.table { padding: 0 20px 8px; }
+.tableHeader { display: grid; grid-template-columns: 1fr 1.2fr 1.2fr; gap: 8px; padding: 14px 0 10px; border-bottom: 0.5px solid var(--border); }
+.thMetric { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; }
+.thPlayer { font-size: 13px; font-weight: 700; color: #fff; text-align: center; }
+.tableRow { display: grid; grid-template-columns: 1fr 1.2fr 1.2fr; gap: 8px; padding: 12px 0; border-bottom: 0.5px solid #1a1a2e; align-items: start; }
+.tableRow:last-child { border-bottom: none; }
+.rowCat { font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; padding-top: 2px; }
+.rowVal { font-size: 12px; color: #ccc; text-align: center; line-height: 1.4; }
+
+.battleSummary { margin: 0 20px 20px; padding: 14px; background: var(--bg3); border-radius: 10px; font-size: 13px; color: #ccc; line-height: 1.6; font-style: italic; border: 0.5px solid var(--border); }

@@ -1,0 +1,32 @@
+.page { padding: 0 20px 100px; max-width: 900px; margin: 0 auto; }
+
+.hero { text-align: center; padding: 56px 16px 44px; }
+
+.badge { display: inline-block; font-size: 10px; color: var(--purple-light); letter-spacing: 3px; border: 1px solid #7c3aed44; border-radius: 20px; padding: 4px 14px; margin-bottom: 20px; }
+
+.heroTitle { font-size: clamp(44px, 10vw, 76px); font-weight: 900; color: #fff; line-height: 1.0; margin-bottom: 18px; letter-spacing: -2px; }
+.accent { background: linear-gradient(135deg, #9b6dff, #7c3aed); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+
+.heroDesc { font-size: 14px; color: var(--muted); margin-bottom: 28px; line-height: 1.7; }
+
+.heroCta { padding: 15px 48px; background: linear-gradient(135deg, #9b6dff, #6d28d9); color: #fff; border: none; border-radius: 12px; font-size: 16px; font-weight: 700; transition: all 0.2s; letter-spacing: 0.3px; box-shadow: 0 4px 24px #7c3aed44; }
+.heroCta:hover { transform: translateY(-2px); box-shadow: 0 8px 32px #7c3aed66; }
+
+.stats { display: flex; align-items: center; justify-content: center; gap: 28px; margin-top: 32px; }
+.stat { display: flex; flex-direction: column; align-items: center; }
+.statNum { font-size: 20px; font-weight: 800; color: #fff; }
+.statLabel { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-top: 2px; }
+.statDiv { width: 1px; height: 32px; background: var(--border); }
+
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+@media(min-width: 600px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+
+.card { background: var(--bg2); border: 0.5px solid var(--border); border-radius: 16px; padding: 20px; cursor: pointer; transition: all 0.22s; }
+.card:hover { border-color: var(--purple); transform: translateY(-2px); background: #1c1c30; }
+
+.cardTop { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; }
+.cardIcon { font-size: 28px; }
+.cardArrow { font-size: 16px; color: var(--muted); }
+.card:hover .cardArrow { color: var(--purple-light); }
+.cardName { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 6px; }
+.cardDesc { font-size: 12px; color: var(--muted); line-height: 1.5; }
